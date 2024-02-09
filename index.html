@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto-Refresh Page</title>
+  <script>
+    // Function to refresh the page every 5 seconds
+    function autoRefresh() {
+      setTimeout(function () {
+        location.reload();
+      }, 5000); // 5000 milliseconds = 5 seconds
+    }
+    // Call the autoRefresh function when the page loads
+    window.onload = autoRefresh;
+  </script>
+</head>
+<body>
+  <h1>This page will auto-refresh every 5 seconds.</h1>
+</body>
+</html>
+
